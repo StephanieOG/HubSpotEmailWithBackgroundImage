@@ -1,5 +1,5 @@
 <style>
-    .header-table-background { background-image: url("{{ widget.background_image.src }}"); background-repeat: no-repeat; background-position: center; background-color: #F73E4B; }
+    .header-table-background { background-image: url("{{ widget.background_image.src }}"); background-size: cover; background-repeat: no-repeat; background-position: center; background-color: #F73E4B; }
     .sm-icon { width: 25px; text-align: left; }
     .hs-cta-img { padding: 5px 20px !important; }
     .logo-column { width: 65%; }
