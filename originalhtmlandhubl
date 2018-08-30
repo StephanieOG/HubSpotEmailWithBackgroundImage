@@ -16,9 +16,9 @@
 
 <table style="border-collapse: collapse;">
   <tr>
-    <td class="header-table-background" style="padding: 0;" background="{{ widget.background_image.src }}" bgcolor="#F73E4B" width="600" height="auto" valign="top">
+    <td class="header-table-background" style="padding: 0;" background="{{ widget.background_image.src }}" bgcolor="#F73E4B" width="600" height="500" valign="top">
       <!--[if gte mso 9]>
-      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600;height:auto;">
+      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600;height:500px;">
         <v:fill type="frame" src="{{ widget.background_image.src }}" color="#F73E4B" />
         <v:textbox inset="0,0,0,0">
       <![endif]-->
@@ -33,14 +33,14 @@
             <!-- Social Icon 3 -->
             <th class="sm-icon-column"><a href="#"><img style="margin: 0 5px; max-width: 25px; max-height: 25px;" src="#"></a></th>
           </tr>
-          <tr>
+          <tr height="400" style="height: 400px;">
             <td colspan="6">
-                <table cellpadding="30" style="width: 100%; text-align: center;">
-                  <tr>
-                    <th>
+                <table cellpadding="30" height="400" style="width: 100%; text-align: center; height: 400px;">
+                  <tr height="400">
+                    <td>
                       <!-- Content -->
                       {{ widget.content }}
-                    </th>
+                    </td>
                   </tr>
                 </table>
             </td>
