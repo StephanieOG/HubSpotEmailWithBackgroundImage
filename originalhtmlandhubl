@@ -1,13 +1,9 @@
 <style>
     .header-table-background { background-image: url("{{ widget.background_image.src }}"); background-size: cover; background-repeat: no-repeat; background-position: center; background-color: #F73E4B; }
-    .sm-icon { width: 25px; text-align: left; }
-    .hs-cta-img { padding: 5px 20px !important; }
     .logo-column { width: 65%; }
     @media only screen and (max-width: 480px) {
         .logo-column { text-align: center !important; }
         .sm-icon-column { display: none; }
-        #templateColumns{ width:100% !important; }
-        .templateColumnContainer{ display:block !important; width:100% !important; }
     }
     @media only screen and (min-width: 480px) and (max-width: 570px ) {
         .logo-column { width: 170px; }
