@@ -1,5 +1,5 @@
 <style>
-    .header-table-background { background-image: url("{{ widget.background_image.src }}"); background-size: cover; background-repeat: no-repeat; background-position: center; background-color: #F73E4B; }
+    .header-table-background { background-image: url("{{ module.background_image.src }}"); background-size: cover; background-repeat: no-repeat; background-position: center; background-color: #F73E4B; }
     .logo-column { width: 65%; }
     @media only screen and (max-width: 480px) {
         .logo-column { text-align: center !important; }
@@ -12,13 +12,13 @@
 
 <table style="border-collapse: collapse;">
   <tr>
-    <td class="header-table-background" style="padding: 0;" background="{{ widget.background_image.src }}" bgcolor="#F73E4B" width="600" height="500" valign="top">
+    <td class="header-table-background" style="padding: 0;" background="{{ module.background_image.src }}" bgcolor="#F73E4B" width="600" height="500" valign="top">
       <!--[if gte mso 9]>
       <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600;height:500px;">
-        <v:fill type="frame" src="{{ widget.background_image.src }}" color="#F73E4B" />
+        <v:fill type="frame" src="{{ module.background_image.src }}" color="#F73E4B" />
         <v:textbox inset="0,0,0,0">
       <![endif]-->
-        <table width="100%" height="100%" style="background-color: rgba(0, 0, 0, 0.3); border-collapse: collapse; max-height: {{ widget.background_image.height }};" cellpadding="7px" align="left">
+        <table width="100%" height="100%" style="background-color: rgba(0, 0, 0, 0.3); border-collapse: collapse; max-height: {{ module.background_image.height }};" cellpadding="7px" align="left">
           <tr align="left" width="100%" height="60px">
             <!-- Logo -->
             <th class="logo-column" align="left"><a href="#"><img style="text-align: left; width: 120px; max-width: 2000px;" src="#"></a></th>
@@ -35,7 +35,7 @@
                   <tr height="400">
                     <td>
                       <!-- Content -->
-                      {{ widget.content }}
+                      {{ module.content }}
                     </td>
                   </tr>
                 </table>
